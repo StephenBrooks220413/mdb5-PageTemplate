@@ -43,11 +43,11 @@
       <div class="collapse navbar-collapse" id="navbarExample01">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item active">
-            <a class="nav-link text-white" href="index.html">Home</a>
+            <a class="nav-link text-primary" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a
-              class="nav-link text-white"
+              class="nav-link text-primary"
               href="about.html"
               rel="nofollow"
               >About</a
@@ -55,7 +55,7 @@
           </li>
           <li class="nav-item">
             <a
-              class="nav-link text-white"
+              class="nav-link text-primary"
               href="contact.html"
               rel="nofollow"
               >Contact</a
@@ -63,7 +63,7 @@
           </li>
           <li class="nav-item">
             <a
-              class="nav-link text-white"
+              class="nav-link text-primary"
               href="https://mdbootstrap.com/docs/standard/"
               target="_blank"
               >Download MDB UI KIT</a
@@ -80,7 +80,7 @@
               rel="nofollow"
               target="_blank"
             >
-              <i class="fab text-white fa-youtube"></i>
+              <i class="fab text-primary fa-youtube"></i>
             </a>
           </li>
           <li class="nav-item">
@@ -90,7 +90,7 @@
               rel="nofollow"
               target="_blank"
             >
-              <i class="fab text-white fa-facebook-f"></i>
+              <i class="fab text-primary fa-facebook-f"></i>
             </a>
           </li>
           <li class="nav-item">
@@ -100,7 +100,7 @@
               rel="nofollow"
               target="_blank"
             >
-              <i class="fab text-white fa-twitter"></i>
+              <i class="fab text-primary fa-twitter"></i>
             </a>
           </li>
           <li class="nav-item">
@@ -110,7 +110,7 @@
               rel="nofollow"
               target="_blank"
             >
-              <i class="fab text-white fa-github"></i>
+              <i class="fab text-primary fa-github"></i>
             </a>
           </li>
         </ul>
@@ -128,15 +128,18 @@
       height: 100vh;
     "
   >
-    <div class="mask text-white" style="background-color: rgba(0, 0, 0, 0.4);">
+    <div class="mask text-info" style="background-color: rgba(0, 0, 0, 0.4);">
       <div class="container d-flex align-items-center text-center h-100">
-        <div>
+        <div 
+            data-mdb-toggle="animation"
+            data-mdb-animation="zoom-in"
+            data-mdb-animation-start="onLoad">
           <h1 class="display-3">Web Design & Development</h1>
           <p class="lead">
             The art of making web pages look and feel responsive, 
             making rich images and dynamic content with the power of JavaScript.
           </p>
-          <a href="mailto:mail@mail.com" class="btn btn-outline-white btn-lg">MORE INFO</a>
+          <a href="mailto:mail@mail.com" class="btn btn-primary btn-lg">MORE INFO</a>
         </div>
       </div>
     </div>
@@ -144,8 +147,113 @@
   <!-- Background image -->
 </header>
 
+  <br /><br />
+  <div class="container text-center mt-5 mb-5">
+    <div class="row">
+      <div 
+        data-mdb-toggle="animation"
+        data-mdb-animation-start="onScroll"
+        data-mdb-animation="slide-in-left"
+        class="col-lg-4 col-md-12 mb-4">
+        <h2>Rich Content</h2>
+        <p class="lead">
+          Keep everything appealing and up-to-date 
+          with common use of css and javascript.
+        </p>
+      </div>
+      <div class="col-lg-4 col-md-12 mb-4">
+        <img
+          data-mdb-toggle="animation"
+          data-mdb-animation-start="onScroll"
+          data-mdb-animation="fade-in"
+          src="https://mdbootstrap.com/img/new/standard/city/041.jpg"
+          class="img-fluid shadow-1-strong rounded"
+        />
+      </div>
+      <div 
+        data-mdb-toggle="animation"
+        data-mdb-animation-start="onScroll"
+        data-mdb-animation="slide-in-right"
+        class="col-lg-4 col-md-12 mb-4">
+        <h2>Responsive Pages</h2>
+        <p class="lead">
+          Web pages look the great on all screens, no 
+          matter what device you are on.
+        </p>
+      </div>
+    </div>
+  </div>
 
+ 
+  <footer class="text-center mt-5 text-white" style="background-color: #f1f1f1;">
+  <!-- Grid container -->
+  <div class="container pt-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
 
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-dark" target="_blank" href="https://codingwithstephen.netlify.app/">codingwithstephen</a>
+  </div>
+  <!-- Copyright -->
+</footer>
   <!-- End of project here-->
 
 </body>
